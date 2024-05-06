@@ -1,0 +1,121 @@
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin-top: 2em;
+  margin-left: 12%;
+  box-shadow: 20px 18px 10px rgba(12, 94, 102, 1.3);
+  color: rgb(145, 11, 11);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5em;
+}
+
+th,
+td {
+  padding: 11px;
+  text-align: center;
+  border-radius: 30%;
+  box-shadow: 20px 18px 10px rgba(12, 94, 102, 1.3);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+#mainHeader {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mainMenu {
+  background-color: rgb(181, 222, 237);
+  width: 20%;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin-left: 18%;
+  box-shadow: 20px 18px 10px rgba(12, 94, 102, 1.3);
+  border-radius: 20%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 2em;
+}
+
+#subUploadFilesMenu {
+  background-color: rgb(181, 222, 237);
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  display: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#subAddNewCourseMenu {
+  background-color: rgb(181, 222, 237);
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  display: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#subManipulateCourseMenu {
+  background-color: rgb(181, 222, 237);
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  display: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#subAddClassroomMenu {
+  background-color: rgb(181, 222, 237);
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  display: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#subManipulateClassroomMenu {
+  background-color: rgb(181, 222, 237);
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  display: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  transition: background-color 3s ease;
+  background-color: #13cdae;
+}
+button {
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(228, 202, 202);
+  color: rgb(61, 0, 67);
+}
+img {
+  border-radius: 2em;
+  margin-bottom: 3em;
+  margin-left: 12em;
+  margin-top: 15em;
+  animation: spin 8s linear infinite;
+  max-width: 10%;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
